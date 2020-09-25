@@ -12,6 +12,7 @@ cd "${0%/*}/.."
 pwd
 echo "Running tests"
 echo "............................" 
+#mvn -Dtest=CalculadoraTest
 echo "Failed!" && exit 1
 
 # example of commands for different languages

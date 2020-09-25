@@ -7,7 +7,7 @@ public class CalculadoraTest extends TestCase {
 	Calculadora calc = new Calculadora();
 	
 	public void testSoma() {
-		assertEquals(3, calc.soma(1, 2));
+		assertEquals(4, calc.soma(1, 2));
 	}
 	
 	public void testMultiplica(){

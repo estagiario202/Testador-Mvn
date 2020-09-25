@@ -10,9 +10,12 @@ public class Calculadora {
 		return a + b;
 	}
 	 
+	public int divisao(int x, int y) {
+		return x/y;
+	}
 	
 	public int multiplica(boolean s, int x, int y) {
-		if(s) 	
+		if(s) 	  
 		{		 
 			return x*y;   
 		}
