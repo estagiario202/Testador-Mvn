@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Testador_Mvn.Testador.CalculadoraTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec <<< FAILURE! - in Testador_Mvn.Testador.CalculadoraTest
-testMultiplica(Testador_Mvn.Testador.CalculadoraTest)  Time elapsed: 0.004 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<15> but was:<12>
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at Testador_Mvn.Testador.CalculadoraTest.testMultiplica(CalculadoraTest.java:14)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in Testador_Mvn.Testador.CalculadoraTest
