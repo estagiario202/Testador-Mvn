@@ -12,7 +12,7 @@ public class Calculadora {
 	 
 	
 	public int multiplica(boolean s, int x, int y) {
-		if(s)
+		if(s) 	
 		{		 
 			return x*y;   
 		}
