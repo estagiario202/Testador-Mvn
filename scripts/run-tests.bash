@@ -9,11 +9,12 @@ set -e
 cd "${0%/*}/.."
 
 # let's fake failing test for now 
-pwd
 echo "Running tests"
 echo "............................" 
-#mvn -Dtest=CalculadoraTest
-echo "Failed!" && exit 1
+#out = $(pwd) #$(mvn test | grep "Failed tests:")
+mvn test
+#echo $out
+#echo "Failed!" && exit 1
 
 # example of commands for different languages
 # eslint .         # JS code quality check
