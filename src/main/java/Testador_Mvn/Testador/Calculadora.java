@@ -5,7 +5,7 @@ package Testador_Mvn.Testador;
  *
  */
 public class Calculadora {
-	
+	// analisado pelo sonarqube
 	public int soma(int a, int b) {
 		return a + b;
 	}

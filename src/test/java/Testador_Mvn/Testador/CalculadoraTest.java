@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 public class CalculadoraTest extends TestCase {
 
-	Calculadora calc = new Calculadora();
+	Calculadora calc = new Calculadora(); 
 	
 	public void testSoma() {
 		assertEquals(3, calc.soma(1, 2));

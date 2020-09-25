@@ -8,17 +8,9 @@ set -e
 # thanks to it we can just enter `./scripts/run-tests.bash`
 cd "${0%/*}/.."
 
-# let's fake failing test for now 
-echo "Running tests"
-echo "............................" 
-#out = $(pwd) #$(mvn test | grep "Failed tests:")
+echo "[INFO] RUNNING TESTS"
+echo "[INFO] ------------------------------------------------------------------------" 
+# executa todos os testes do projeto via maven
 mvn test
-#echo $out
-#echo "Failed!" && exit 1
 
-# example of commands for different languages
-# eslint .         # JS code quality check
-# npm test         # JS unit tests
-# flake8 .         # python code quality check
-# nosetests        # python nose 
-# just put your usual test command here
+
